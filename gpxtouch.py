@@ -77,7 +77,6 @@ for file in files:
 	else:
 		print "%s is not a file" % file
 t1 = time.time()
-print size
 prettysize = ""
 for sfx in SFX:
 	size /= 1024
